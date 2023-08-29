@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+          <div class="todo_app">
+             <h2>To-Do List <img src="images/icon.png"></h2>
+             <div class="row">
+                <input type="text"  id="input_box"  placeholder="What do you have planned?">
+                <button onclick="addtask()">Add Task</button>
+                 
+             </div>
+             <div id="tasks">
+               <h3 id="pending_tasks">
+                  You have <span class="count_task">0</span> Task(s) to Complete </h3>
+             </div>
+             <ul id="list_container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+             </ul>
+          </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
